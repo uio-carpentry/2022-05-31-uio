@@ -80,17 +80,24 @@
     </div>
   </div>
   
-  <h3>R packages</h3>
+  <h3>Installing R packages</h3>
   <p>
-  During the course you will need to install R packages. If you are using a private computer, this should be no problem, 
-  but if your computer is managed by your IT department it might be best to try this *before the course* to avoid troubleshooting during the course. 
-  To try to install packages, open RStudio and enter the following command in the console window (look for the blinking cursor):
+  During the course you will need to install R packages. Packages contain useful programs written by other people.
+  In the course we will use four packages, namely <code>dplyr</code>, <code>tidyr</code>, <code>lubridate</code>, and <code>ggplot2</code>.  
+  However, we recommend installing the <code>tidyverse</code> meta-package instead, which contains these four plus many 
+  other handy packages.
+  </p>
+  <p> 
+  If you are using a private computer, installing packages should be no problem, 
+  but if your computer is managed by your IT department it might be best to try this before the course to avoid 
+  troubleshooting during the course. 
+    To try to install packages, open RStudio and copy and paste the following command into the console window (look for the blinking cursor):
   </p>
   <p>
   <code>install.packages("tidyverse"); library(tidyverse); glimpse(mtcars)</code>
   </p>
   <p>
-  The press the Enter (Windows) or Return (MacOS) key to execute the command. R now tries to dow load and install a bunch of packages on you machine.
+  The press the Enter (Windows) or Return (MacOS) key to execute the command. R now tries to download and install a bunch of packages on you machine.
   When the installation is finished, you should see a summary of a data set about cars. If there are problems, contact your IT department or us.
   </p>
 
