@@ -379,7 +379,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
+  you will need access to the software described below. Please install the software *before* you attend the workshop. If you run into trouble with the installation, contact your local IT department or us.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
